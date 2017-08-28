@@ -1,0 +1,8 @@
+[Unit]
+Description=overmind for fido_jr
+
+[Service]
+ExecStart=/home/root/service/start.sh
+
+[Install]
+WantedBy=multi-user.target
